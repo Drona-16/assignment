@@ -1,0 +1,26 @@
+/* ProductivityGrid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .day {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .productivity-low {
+    background-color: #FFCCCC;
+  }
+  
+  .productivity-medium {
+    background-color: #FFFFCC;
+  }
+  
+  .productivity-high {
+    background-color: #CCFFCC;
+  }
+  
