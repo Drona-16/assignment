@@ -1,4 +1,3 @@
-import { React, useState } from 'react'
 import data from "./listData.json"
 
 function List(props) {
