@@ -1,17 +1,7 @@
 import React from 'react';
-import 'react-circular-progressbar/dist/styles.css';
 import Progressbar from './progressbar.js';
 
 const ProductivityGrid = () => {
-  const days = [
-    { name: 'Monday', productivity: 'low' },
-    { name: 'Tuesday', productivity: 'medium' },
-    { name: 'Wednesday', productivity: 'high' },
-    { name: 'Thursday', productivity: 'medium' },
-    { name: 'Friday', productivity: 'low' },
-    { name: 'Saturday', productivity: 'high' },
-    { name: 'Sunday', productivity: 'medium' },
-  ];
 
   return (
     <div className="grid-container">
